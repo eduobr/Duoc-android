@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">clase2</string>
+    <string-array name="bancos">
+        <item>Seleccionar</item>
+        <item>Banco de Chile</item>
+        <item>Estado</item>
+        <item>Santander</item>
+        <item>BCI</item>
+    </string-array>
+</resources>

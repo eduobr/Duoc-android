@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Prueba1</string>
+    <string-array name="AFP">
+        <item>Seleccionar</item>
+        <item>Capital</item>
+        <item>Cuprum</item>
+        <item>Habitat</item>
+        <item>Plan Vital</item>
+        <item>Pro Vida</item>
+        <item>Modelo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGRESO AUTOMOVIL"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INGRESE LA PATENTE"
+        android:textSize="25dp"
+        android:id="@+id/txtPatente"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INGRESE N° CHASIS"
+        android:textSize="25dp"
+        android:id="@+id/txtNumChasis"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="INGRESE COLOR"
+        android:textSize="25dp"
+        android:id="@+id/txtColor"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/modelos"
+        android:id="@+id/spModelo">
+    </Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="GUARDAR"
+            android:textSize="25dp"
+            android:background="@drawable/border"
+            android:id="@+id/btnGuardar"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="ELIMINAR"
+            android:textSize="25dp"
+            android:background="@drawable/border"
+            android:id="@+id/btnEliminar"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="BUSCAR"
+            android:textSize="25dp"
+            android:background="@drawable/border"
+            android:id="@+id/btnBuscar"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/lvAuto"
+        android:background="@color/colorAccent">
+
+    </ListView>
+
+</LinearLayout>

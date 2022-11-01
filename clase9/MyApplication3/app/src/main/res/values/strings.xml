@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="modelos">
+        <item>Seleccionar</item>
+        <item>Camaro</item>
+        <item>Veneno</item>
+        <item>Murcielago</item>
+        <item>Cobra</item>
+        <item>Maruti</item>
+        <item>v16</item>
+        <item>H3T</item>
+    </string-array>
+</resources>
